@@ -16,5 +16,6 @@ spec:
         app: TO_BE_REPLACED
     spec:
       containers:
-      - image: gitweb-image
+      - name: TO_BE_REPLACED
+        image: gitweb-image
         imagePullPolicy: IfNotPresent

@@ -17,3 +17,7 @@
 - op: replace
   path: /spec/template/metadata/labels/app
   value: gitweb
+
+- op: replace
+  path: /spec/template/spec/containers/0/name
+  value: gitweb

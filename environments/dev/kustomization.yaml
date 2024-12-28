@@ -10,17 +10,17 @@ patches:
 - path: patch-development.yaml
   target:
     kind: Deployment
-    name: gitweb
+    name: TO_BE_REPLACED
 
 - path: patch-ingress.yaml
   target:
     kind: Ingress
-    name: gitweb-ingress
+    name: TO_BE_REPLACED
 
 - path: patch-service.yaml
   target:
     kind: Service
-    name: gitweb-svc
+    name: TO_BE_REPLACED
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

@@ -3,9 +3,17 @@ kind: Deployment
 metadata:
   name: TO_BE_REPLACED
   namespace: TO_BE_REPLACED
+  labels:
+    app: TO_BE_REPLACED
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: TO_BE_REPLACED
   template:
+    metadata:
+      labels:
+        app: TO_BE_REPLACED
     spec:
       containers:
       - image: gitweb-image

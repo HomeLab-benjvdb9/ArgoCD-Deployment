@@ -5,3 +5,15 @@
 - op: replace
   path: /metadata/namespace
   value: gitops
+
+- op: replace
+  path: /metadata/labels/app
+  value: gitweb
+
+- op: replace
+  path: /spec/selector/matchLabels/app
+  value: gitweb
+
+- op: replace
+  path: /spec/template/metadata/labels/app
+  value: gitweb

@@ -1,0 +1,11 @@
+- op: replace
+  path: /metadata/name
+  value: gitweb-svc
+
+- op: replace
+  path: /metadata/namespace
+  value: gitops
+
+- op: replace
+  path: /spec/selector/app
+  value: gitweb

@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: gitweb-ingress
+
+- op: replace
+  path: /metadata/namespace
+  value: gitops
+
+- op: replace
+  path: /spec/rules/0/host
+  value: gitweb.local
+
+- op: replace
+  path: /spec/rules/0/http/paths/0/backend/service/name
+  value: gitweb-svc

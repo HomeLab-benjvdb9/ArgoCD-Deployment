@@ -5,7 +5,7 @@ metadata:
   namespace: TO_BE_REPLACED
   labels:
     app: TO_BE_REPLACED
-    tilt-dev: true
+    tilt-dev: "true"
 spec:
   replicas: 1
   selector:

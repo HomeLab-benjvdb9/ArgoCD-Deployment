@@ -4,7 +4,7 @@ resources:
 images:
 - name: gitweb-image
   newName: "benjvdb9/quarkus"
-  newTag: "0.1"
+  newTag: "0.2"
 
 patches:
 - path: patch-development.yaml

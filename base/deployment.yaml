@@ -24,4 +24,4 @@ spec:
         - name: "QUARKUS_LAUNCH_DEVMODE"
           value: "true"
         - name: "QUARKUS_PROFILE"
-          value: "notdev"
+          value: "dev"

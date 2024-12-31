@@ -1,15 +1,15 @@
 - op: replace
   path: /metadata/name
-  value: gitweb-svc
+  value: quarkus-svc
 
 - op: replace
   path: /metadata/namespace
-  value: gitops
+  value: quarkus
 
 - op: replace
   path: /spec/selector/app
-  value: gitweb
+  value: quarkus
 
 - op: replace
   path: /spec/ports/0/targetPort
-  value: 80
+  value: 8080

@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: quarkus-ingress
+
+- op: replace
+  path: /metadata/namespace
+  value: quarkus
+
+- op: replace
+  path: /spec/rules/0/host
+  value: quarkus.local
+
+- op: replace
+  path: /spec/rules/0/http/paths/0/backend/service/name
+  value: quarkus-svc

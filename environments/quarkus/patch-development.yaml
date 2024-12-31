@@ -1,0 +1,23 @@
+- op: replace
+  path: /metadata/name
+  value: quarkus
+
+- op: replace
+  path: /metadata/namespace
+  value: quarkus
+
+- op: replace
+  path: /metadata/labels/app
+  value: quarkus
+
+- op: replace
+  path: /spec/selector/matchLabels/app
+  value: quarkus
+
+- op: replace
+  path: /spec/template/metadata/labels/app
+  value: quarkus
+
+- op: replace
+  path: /spec/template/spec/containers/0/name
+  value: quarkus

@@ -20,3 +20,6 @@ spec:
       - name: TO_BE_REPLACED
         image: gitweb-image
         imagePullPolicy: IfNotPresent
+        env:
+        - name: QUARKUS_LAUNCH_DEVMODE
+          value: true
